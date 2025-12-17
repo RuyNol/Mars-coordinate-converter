@@ -1,0 +1,10 @@
+# GIS坐标转换工具依赖
+PyInstaller>=5.0
+Pillow>=9.0  # 用于图片处理
+gdal>=3.11.4  # 用于Shapefile处理
+
+# 可选：如果你有特定版本的gdal，可能需要指定wheel
+# gdal==3.4.1
+
+# 注意：gdal在Windows上可能需要从特定源安装
+# pip install gdal==3.4.1 -f https://download.osgeo.org/gdal/pypi/
